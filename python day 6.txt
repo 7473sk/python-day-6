@@ -1,0 +1,28 @@
+q1:name=input('Enter your name')
+age=int(input('Enter your age'))
+height=int(input('Enter your age'))
+print(f"My name is {name}. I am {age}years old . MY height is{height}")
+
+output
+Enter your nameSumit
+Enter your age61
+Enter your age23
+My name is Sumit. I am 61years old . MY height is23
+
+Q2: age=int(input("Enter your age:"))
+Years_left=90-age
+days_left=years_left*365
+months_left=years_left*12
+weeks_left=years_left*52
+print(f"You have{days_left}days,{weeks_left}weeks and {months_left}months left")
+
+output
+Enter your age:23
+You have24455days,3484weeks and 804months left
+
+height = int(input("Enter your height in feet: "))
+if height > 3:
+    print("Buy token")
+else:
+    print("No token required")
+
